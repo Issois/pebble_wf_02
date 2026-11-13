@@ -1,0 +1,43 @@
+{
+    "author": "Issois",
+    "dependencies": {},
+    "keywords": [
+        "pebble-app"
+    ],
+    "name": "iso-wf-2",
+    "pebble": {
+        "displayName": "ISSOIS-WF-02C",
+        "enableMultiJS": true,
+        "manifestVersion": 2,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "characterRegex": "[0-9a-zA-z.\\-% ]",
+                    "file": "fonts/BRITANIC.TTF",
+                    "name": "FONT_BRIT_22",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9:]",
+                    "file": "fonts/BRITANIC.TTF",
+                    "name": "FONT_BRIT_70",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "emery"
+        ],
+        "usesPermissions": [],
+        "uuid": "c1613189-05c8-4b83-8f78-2b352b5fdd41",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
